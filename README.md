@@ -22,4 +22,4 @@ You make changes (Add, modify, delete)
 1. Create a real world class with following:
  1. 4 fields: 2 public, 1 internal and a private
  2. Two methods
- 3. Create two object of this classin another class/method and assign values for above fields for each object.
+ 3. Create two object of this class in another class/method and assign values for above fields for each object.
