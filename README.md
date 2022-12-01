@@ -16,3 +16,10 @@ You make changes (Add, modify, delete)
 > git commit -m "Sensible commit message which describes your changes"
 > git push (For the first time, git may welcome you with the authorization popup)
 ```
+
+# Assignments
+
+1. Create a real world class with following:
+ 1. 4 fields: 2 public, 1 internal and a private
+ 2. Two methods
+ 3. Create two object of this classin another class/method and assign values for above fields for each object.
