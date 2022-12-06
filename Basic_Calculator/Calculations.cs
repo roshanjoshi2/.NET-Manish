@@ -1,10 +1,9 @@
 using System;
 class Calculations
 {
-    int sum = 0, sub = 0, mul = 1, div = 1;
     public void add()
     {
-        int num1;
+        int num1, sum = 0;
         Console.WriteLine("\tEnter the series of number you want addition of...");
         Console.WriteLine("\tEnter the 0 to stop input and get result...");
         do
@@ -22,7 +21,7 @@ class Calculations
 
     public void subtract()
     {
-        int num2;
+        int num2, sub = 0;
         Console.WriteLine("\tEnter the series of number you want substraction of...");
         Console.WriteLine("\tEnter the 0 to stop input and get result...");
         do
@@ -40,7 +39,7 @@ class Calculations
             }
             else if ((num2 < 0) && (sub == 0))
             {
-                sub -= num2;
+                sub += num2;
             }
             else if ((num2 < 0) && (sub < 0))
             {
@@ -64,7 +63,7 @@ class Calculations
 
     public void multiply()
     {
-        int num3;
+        int num3, mul = 1;
         Console.WriteLine("\tEnter the series of number you want multiplication of...");
         Console.WriteLine("\tEnter the 1 to stop input and get result...");
         do
@@ -82,7 +81,7 @@ class Calculations
 
     public void divide()
     {
-        int num4;
+        int num4, div = 1;
         Console.WriteLine("\tEnter the series of number you want division of...");
         Console.WriteLine("\tEnter the 1 to stop input and get result...");
         do
