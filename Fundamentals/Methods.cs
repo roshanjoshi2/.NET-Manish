@@ -51,9 +51,39 @@ class Method
 
     // CW - Write a method which takes 3 numbers and returns average of all.
 
-    public float Average(float a, float b, float c)
+    // public float Average(float a, float b, float c)
+    // {
+    //     var avg = (a + b + c) / 3;
+    //     return avg;
+    // }
+
+    public float Average(params int[] items)
     {
-        var avg = (a + b + c) / 3;
-        return avg;
+        var sum = 0;
+        foreach (var i in items)
+        {
+            sum += i;
+        }
+
+        var average = (float)sum / items.Length;
+
+        return average;
     }
+
+    // Cw - Find min and max of numbers provided to a method.
+    //      This method should also accept variable number of arguments
+    // Print following pattern in console:
+    // #
+    // ##
+    // ###
+    // ####
+    // #####
+
+    // 1
+    // 22
+    // 333
+    // 4444
+    // 55555
+    // 666666
+
 }

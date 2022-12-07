@@ -52,16 +52,16 @@ class EntryPoint
         // m.GetCovidResult("No");
         // var sum = m.AddS(23.5, 24.5);
         Console.Write("Enter 1st Number: ");
-        float x = float.Parse(Console.ReadLine());
+        int x = int.Parse(Console.ReadLine());
         Console.WriteLine();
         Console.Write("Enter 2nd Number: ");
-        float y = float.Parse(Console.ReadLine());
+        int y = int.Parse(Console.ReadLine());
         Console.WriteLine();
         Console.Write("Enter 3rd Number: ");
-        float z = float.Parse(Console.ReadLine());
+        int z = int.Parse(Console.ReadLine());
         Console.WriteLine();
 
-        float avg = m.Average(x, y, z);
+        float avg = m.Average(x, y, z, 2, 3, 4);
         Console.WriteLine("Average = " + avg);
 
 
