@@ -46,11 +46,24 @@ class EntryPoint
         // Console.WriteLine(m);
 
         Method m = new();
-        m.Print();
-        m.Print("I am Manish and I am god!!!");
-        m.GetMessage();
-        m.GetCovidResult("No");
-        var sum = m.AddS(23.5, 24.5);
+        // m.Print();
+        // m.Print("I am Manish and I am god!!!");
+        // m.GetMessage();
+        // m.GetCovidResult("No");
+        // var sum = m.AddS(23.5, 24.5);
+        Console.Write("Enter 1st Number: ");
+        float x = float.Parse(Console.ReadLine());
+        Console.WriteLine();
+        Console.Write("Enter 2nd Number: ");
+        float y = float.Parse(Console.ReadLine());
+        Console.WriteLine();
+        Console.Write("Enter 3rd Number: ");
+        float z = float.Parse(Console.ReadLine());
+        Console.WriteLine();
+
+        float avg = m.Average(x, y, z);
+        Console.WriteLine("Average = " + avg);
+
 
     }
 }
